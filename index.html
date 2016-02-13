@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>i-love-cici</title>
+    <meta charset="utf-8">
+    <meta name="description" content="TimelineJS Embed">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <!-- CSS-->
+    <link rel="stylesheet" href="static/css/timeline.css?v1">
+    <!--FONT-->
+    <link rel="stylesheet" href="static/css/fonts/font.default.css?v1">
+    <!-- Style-->
+    <style>
+      html, body {
+        height:100%;
+        width:100%;
+        padding: 0px;
+        margin: 0px;
+      }
+      .tl-timeline {
+        
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div id="timeline"></div>
+    <!-- JavaScript-->
+    <script src="static/js/timeline.js"></script>
+    <script>
+      var timeline = new TL.Timeline('timeline', 'static/data.json', {
+        theme_color: "#288EC3"
+      });
+
+      document.addEventListener('keydown', function(evt) {
+        if ([37, 38].indexOf(evt.keyCode)>=0) {
+          timeline.goToPrev();
+        } 
+        else if ([39, 40].indexOf(evt.keyCode)>=0) {
+          timeline.goToNext();
+        }
+      });
+
+      function setHash(hash) {
+        history.pushState(null, null, '#'+hash);
+      }
+
+      timeline.on('change', function(data) {
+        setHash(data.unique_id);
+      });
+
+      timeline.on('loaded', function() {
+        var link = document.querySelector('#timeline > div.tl-timenav > div.tl-attribution > a');
+        if (link) {
+          link.remove();
+        }
+      });
+    </script>
+  </body>
+</html>
