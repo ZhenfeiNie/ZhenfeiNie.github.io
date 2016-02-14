@@ -115,7 +115,7 @@
             "media": {
                 "caption": "",
                 "credit": "",
-                "url": "static/images/2013-11-02 22.43.37.jpg",
+                "url": "static/images/2013-11-02 22.43.37g.jpg",
                 "thumb":    ""
             },
             "text": {
@@ -137,12 +137,12 @@
             "media": {
                 "caption": "",
                 "credit": "",
-                "url": "",
+                "url": "static/images/2013-11-19 00.02.05g.jpg",
                 "thumb":    ""
             },
             "text": {
                 "headline": "生日",
-                "text": "<img style='transform:rotate(90deg);' src='static/images/2013-11-19 00.02.05.jpg'>"
+                "text": "22岁生日惊喜"
             }
         },
         {
@@ -159,7 +159,7 @@
             "media": {
                 "caption": "",
                 "credit": "",
-                "url": "",
+                "url": "static/images/la.jpg",
                 "thumb":    ""
             },
             "text": {
@@ -234,7 +234,7 @@
             "media": {
                 "caption": "",
                 "credit": "",
-                "url": "static/images/2014-06-18 16.33.50.jpg"
+                "url": "static/images/2014-06-18 16.33.50g.jpg"
             },
             "text": {
                 "headline": "你是我的小苹果",
@@ -265,7 +265,7 @@
             "media": {
                 "caption": "",
                 "credit": "",
-                "url": "static/images/2014-06-29 10.31.38.jpg",
+                "url": "static/images/2014-06-29 10.31.38g.jpg",
                 "thumb":    ""
             },
             "text": {
@@ -287,7 +287,7 @@
             "media": {
                 "caption": "",
                 "credit": "",
-                "url": "static/images/2014-06-28 13.50.47.jpg",
+                "url": "static/images/2014-06-28 13.50.47g.jpg",
                 "thumb":    ""
             },
             "text": {
@@ -394,7 +394,7 @@
             "media": {
                 "caption": "",
                 "credit": null,
-                "url": "static/images/2015-05-02 14.01.52.jpg"
+                "url": "static/images/2015-05-02 14.01.52g.jpg"
             },
             "text": {
                 "headline": "周末爬山",
@@ -470,7 +470,7 @@
             "media": {
                 "caption": null,
                 "credit": "cici",
-                "url": "static/images/2015-10-13 18.04.51.jpg"
+                "url": "static/images/2015-10-13 18.04.51g.jpg"
             },
             "text": {
                 "headline": "毕业了",
@@ -492,7 +492,7 @@
             "media": {
                 "caption": null,
                 "credit": null,
-                "url": "static/images/2015-10-18 22.45.45.jpg"
+                "url": "static/images/2015-10-18 22.45.45g.jpg"
             },
             "text": {
                 "headline": "&#9825;石榴",
@@ -528,7 +528,7 @@
             },
             "text": {
                 "headline": "小两口的日常",
-                "text": "<img style='width:40%; height: 80%;transform:rotate(-90deg);' src='static/images/2015-12-20 14.25.03.jpg'><img style='width:50%;' src='static/images/2015-11-26 19.22.45.jpg'>"
+                "text": "<img style='width:40%; height: 80%;transform:rotate(-90deg);' src='static/images/2015-12-20 14.25.03g.jpg'><img style='width:50%;' src='static/images/2015-11-26 19.22.45g.jpg'>"
             },
             "unique_id": "richang"
         },
@@ -546,7 +546,7 @@
             "media": {
                 "caption": "电车和美女",
                 "credit": null,
-                "url": "static/images/2015-12-25 17.20.29.jpg"
+                "url": "static/images/2015-12-25 17.20.29g.jpg"
             },
             "text": {
                 "headline": "这年圣诞",
@@ -568,7 +568,7 @@
             "media": {
                 "caption": null,
                 "credit": null,
-                "url": "static/images/2015-12-31 14.23.02.jpg"
+                "url": "static/images/2015-12-31 14.23.02g.jpg"
             },
             "text": {
                 "headline": "搬家辛苦了，宝贝",
@@ -590,7 +590,7 @@
             "media": {
                 "caption": "在刚刚下过雪的早晨自拍",
                 "credit": "cici",
-                "url": "static/images/2016-01-18 13.09.33.jpg"
+                "url": "static/images/2016-01-18 13.09.33g.jpg"
             },
             "text": {
                 "headline": "cici来到Schwyz陪youyix",
@@ -612,7 +612,7 @@
             "media": {
                 "caption": null,
                 "credit": "youyix",
-                "url": "static/images/2016-01-30 09.31.20.jpg"
+                "url": "static/images/2016-01-30 09.31.20g.jpg"
             },
             "text": {
                 "headline": "小奇陪你",
